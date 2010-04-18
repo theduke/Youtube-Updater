@@ -1,0 +1,17 @@
+{
+  "name": "YouTube Updater & Search",
+  "version": "0.2.0",
+  "description": "Checks YouTube for new videos, displays a counter and a preview popup.",
+  "icons": { "48": "media/youtube-logo.jpg",
+             "128": "media/youtube-logo.jpg" },
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "media/youtube-logo.jpg",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://www.youtube.com/",
+    "http://suggestqueries.google.com/complete/search*"
+  ]
+}
